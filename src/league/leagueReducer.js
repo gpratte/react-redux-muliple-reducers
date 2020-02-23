@@ -1,5 +1,5 @@
-import gameReducer from './gameReducer'
-import seasonReducer from './seasonReducer'
+import gameReducer from '../game/gameReducer'
+import seasonReducer from '../season/seasonReducer'
 
 function reducer(league, action) {
   //console.log('reducer league is ' + JSON.stringify(league) + ' action ' + JSON.stringify(action));

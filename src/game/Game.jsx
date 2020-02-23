@@ -2,7 +2,7 @@ import React from 'react'
 import store from '../league/leagueStore';
 import {
   CHANGE_GAME_COUNT
-} from '../league/leagueActions';
+} from './gameActions';
 
 class Game extends React.Component {
 

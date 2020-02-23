@@ -2,7 +2,7 @@ import React from 'react'
 import store from '../league/leagueStore';
 import {
   CHANGE_SEASON_COUNT
-} from '../league/leagueActions';
+} from './seasonActions';
 
 class Season extends React.Component {
 
